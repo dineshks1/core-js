@@ -1,4 +1,7 @@
 ## Changelog
+##### Unreleased
+- Added [`{ Number, BigInt }.range` methods stage 1 proposal](https://github.com/tc39/proposal-Number.range)
+
 ##### 3.7.0 - 2020.11.06
 - `String#replaceAll` moved to the stable ES, [per June TC39 meeting](https://github.com/tc39/notes/blob/master/meetings/2020-06/june-2.md#stringprototypereplaceall-for-stage-4)
 - `Promise.any` and `AggregateError` moved to the stable ES, [per July TC39 meeting](https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#promiseany--aggregateerror-for-stage-4)
