@@ -1106,6 +1106,9 @@ GLOBAL.tests = {
   'esnext.array.last-item': function () {
     return [1, 2, 3].lastItem && Array.prototype[Symbol.unscopables].lastItem;
   },
+  'esnext.array.unique-by': function () {
+    return [].uniqueBy;
+  },
   'esnext.async-iterator.constructor': function () {
     return typeof AsyncIterator == 'function';
   },

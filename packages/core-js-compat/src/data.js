@@ -1260,6 +1260,8 @@ const data = {
   },
   'esnext.array.last-item': {
   },
+  'esnext.array.unique-by': {
+  },
   'esnext.async-iterator.constructor': {
   },
   'esnext.async-iterator.as-indexed-pairs': {

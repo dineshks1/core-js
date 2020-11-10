@@ -64,4 +64,7 @@ module.exports = {
     'esnext.map.emplace',
     'esnext.weak-map.emplace',
   ],
+  3.8: [
+    'esnext.array.unique-by',
+  ],
 };

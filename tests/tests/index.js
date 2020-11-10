@@ -200,6 +200,7 @@ QUnit.module('ESNext');
 import './esnext.array.is-template-object';
 import './esnext.array.last-item';
 import './esnext.array.last-index';
+import './esnext.array.unique-by';
 import './esnext.async-iterator.constructor';
 import './esnext.async-iterator.as-indexed-pairs';
 import './esnext.async-iterator.drop';
