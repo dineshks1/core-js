@@ -2335,7 +2335,7 @@ for (const value of Object.iterateValues(obj)) {
   console.log(value);
 }
 ```
-##### [Array deduplication](https://github.com/tc39/proposal-array-unique)
+##### [Array deduplication](https://github.com/tc39/proposal-array-unique)[⬆](#index)
 Module [`esnext.array.unique-by`](https://github.com/zloirock/core-js/blob/v3.7.0/packages/core-js/modules/esnext.array.unique-by.js)
 ```js
 class Array {
