@@ -97,6 +97,7 @@ for (const _PATH of ['../packages/core-js-pure', '../packages/core-js']) {
   ok(typeof load('features/array/virtual/for-each') === 'function');
   ok(typeof load('features/array/virtual/map') === 'function');
   ok(typeof load('features/array/virtual/filter') === 'function');
+  ok(typeof load('features/array/virtual/filter-out') === 'function');
   ok(typeof load('features/array/virtual/flat') === 'function');
   ok(typeof load('features/array/virtual/flat-map') === 'function');
   ok(typeof load('features/array/virtual/some') === 'function');
@@ -1144,6 +1145,12 @@ for (const _PATH of ['../packages/core-js-pure', '../packages/core-js']) {
   ok(instanceFilter({}) === undefined);
   ok(typeof instanceFilter([]) === 'function');
   ok(instanceFilter([]).call([1, 2, 3], it => it % 2).length === 2);
+
+  const instanceFilterOut = load('features/instance/filter-out');
+  ok(typeof instanceFilterOut === 'function');
+  ok(instanceFilterOut({}) === undefined);
+  ok(typeof instanceFilterOut([]) === 'function');
+  ok(instanceFilterOut([]).call([1, 2, 3], it => it % 2).length === 1);
 
   let instanceFindIndex = load('features/instance/find-index');
   ok(typeof instanceFindIndex === 'function');
