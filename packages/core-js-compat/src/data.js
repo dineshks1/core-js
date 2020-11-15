@@ -1256,6 +1256,8 @@ const data = {
   'esnext.aggregate-error': null,
   'esnext.array.is-template-object': {
   },
+  'esnext.array.item': {
+  },
   'esnext.array.last-index': {
   },
   'esnext.array.last-item': {
@@ -1470,6 +1472,8 @@ const data = {
   },
   'esnext.string.code-points': {
   },
+  'esnext.string.item': {
+  },
   // TODO: Remove from `core-js@4`
   'esnext.string.match-all': null,
   'esnext.string.replace-all': null,
@@ -1483,6 +1487,8 @@ const data = {
   },
   // TODO: Remove from `core-js@4`
   'esnext.symbol.replace-all': {
+  },
+  'esnext.typed-array.item': {
   },
   'esnext.weak-map.delete-all': {
   },

@@ -143,6 +143,7 @@ import './es.weak-map';
 import './es.weak-set';
 
 QUnit.module('ESNext');
+import './esnext.array.item';
 import './esnext.array.is-template-object';
 import './esnext.async-iterator.constructor';
 import './esnext.async-iterator.as-indexed-pairs';
@@ -242,6 +243,7 @@ import './esnext.set.symmetric-difference';
 import './esnext.set.union';
 import './esnext.string.at';
 import './esnext.string.code-points';
+import './esnext.string.item';
 import './esnext.symbol.async-dispose';
 import './esnext.symbol.dispose';
 import './esnext.symbol.observable';
