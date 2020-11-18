@@ -1,3 +1,6 @@
+arch:
+ - amd64
+ - ppc64le
 language: node_js
 node_js:
 # - '15' # temporarily disabled because of npm@7 bug https://github.com/npm/cli/issues/1865
